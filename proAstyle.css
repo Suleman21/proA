@@ -1,0 +1,45 @@
+/* Style the header */
+.header {
+    padding: 10px;
+    text-align: center;
+    background:rgb(52, 49, 94);
+    color: rgb(194, 170, 170);
+    font-size: 40px;
+  }
+ /* Style the paragraph */
+  p {
+    color:rgb(52, 49, 94);
+    border: 2px solid black;
+    outline: #7CAF90 solid 5px;
+    margin: 20px;  
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+   }
+
+  /* Style the mainlink navigation */
+  #mainLinks {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(77, 73, 73);
+    overflow-x: hidden;
+  }
+  
+  
+  /* mainlink links */
+  #mainLinks a {
+    color: rgb(94, 92, 233);
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* mainlink mouth  hover */
+  #mainLinks a:hover {
+    background-color: rgb(77, 49, 68);
+    color: rgb(149, 184, 133);
+  }
